@@ -17,11 +17,12 @@ Co-operation between processes to come up with an ordered set of operations
 
 * Mutual exclusion based synchronization
 * Wait free synchronization
+  * Local writes and reconciliation during read
 * Lock free synchronization
 * Obstruction free synchronization
 * Avoiding synchronization
-** Append only data structures (no overwrite. 1NF acutally supports this)
-** Conflict free replicated data types
+  * Append only data structures (no overwrite. 1NF acutally supports this)
+  * Conflict free replicated data types
 
 ## Ordering
 
