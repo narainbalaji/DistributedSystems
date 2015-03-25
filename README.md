@@ -1,5 +1,9 @@
 # DistributedSystems
 
+## Impossiblity results
+
+* CAP theorem
+
 ## Sharding
 
 * Horizontal sharding
@@ -16,13 +20,26 @@ Co-operation between processes to come up with an ordered set of operations
 * Lock free synchronization
 * Obstruction free synchronization
 * Avoiding synchronization
-** Append only data structures (no overwrite)
+** Append only data structures (no overwrite. 1NF acutally supports this)
 ** Conflict free replicated data types
+
+## Ordering
+
+* Vector clocks
+* Lamport timestamps
+
+## Fairness
+
+* Swimlanes in queues
+* Prioritzation and preemption
+* Bulkhead pattern
 
 ## Back pressure
 
 * Throttling
 * Exponential retries
+* Timeouts
+* Circuit breaking
 
 ## Traffic shaping 
 
